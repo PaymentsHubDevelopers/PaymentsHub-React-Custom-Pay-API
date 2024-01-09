@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  border-radius: 40px;
+  border: 2px solid gray;
+  padding: 40px;
+  align-items: flex-end;
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  border: 2px solid rgb(74, 84, 96);
+  border-radius: 5px;
+  color: gray;
+  cursor: text;
+  display: grid;
+  font-size: 0.875em;
+  grid-template-columns: 100fr auto;
+  height: 3.5rem;
+  padding: 0px 1rem;
+  min-height: 48px;
+  width: 100%;
+}
+
+label {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 1.5em;
+  padding-left: 22px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: black;
+  font-size: 16px;
+}
+
+.inputGroup {
+  margin: 8px 16px 8px 8px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submitButton {
+  -webkit-box-align: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background: black;
+  border: 0px none;
+  border-radius: 3.25rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: 800;
+  outline: 0px;
+  overflow: hidden;
+  padding: 1rem 1.5rem;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out 0s;
+  margin-top: 16px;
+}
+
+.submitButton:hover {
+  background-position: left center;
+}
+
+.title {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 2.2rem;
+  color: black;
+  font-weight: 800;
+}
+
+.result {
+  width: 100%;
+  margin-bottom: 2.2rem;
+  color: black;
+  font-weight: 800;
+  margin-top: 32px;
+}
